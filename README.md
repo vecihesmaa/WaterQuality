@@ -23,11 +23,11 @@ It contains 3,276 entries with 10 columns:
 - Potability: Binary label (0: Non-potable, 1: Potable).
 - Data Preprocessing
   
-### Handling Missing Values:
+### Handling Missing Values
 
 ph, Sulfate, and Trihalomethanes columns had missing values which were filled with their respective mean values.
 
-### Normalization:
+### Normalization
 
 Features were normalized using min-max scaling to bring all values into the range [0, 1].
 Exploratory Data Analysis (EDA)
@@ -40,12 +40,12 @@ Visualized missing data using the missingno library to better understand the ext
 Model Building
 Two machine learning models were implemented and evaluated:
 
-### Decision Tree Classifier:
+### Decision Tree Classifier
 
 A simple decision tree with a maximum depth of 3 was used.
 Achieved a precision score of approximately **0.61**.
 
-### Random Forest Classifier:
+### Random Forest Classifier
 
 An ensemble method that aggregates multiple decision trees.
 Achieved a precision score of approximately **0.60**.
@@ -74,7 +74,7 @@ The following Python libraries are required to run the code:
 
 
 
-### Copy Code:
+### Copy Code
 pip install numpy pandas matplotlib seaborn plotly missingno scikit-learn
 
 ### How to Run
